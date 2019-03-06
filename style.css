@@ -1,0 +1,124 @@
+/*
+ Theme Name:   Creativeily Theme Child
+ Description:  Creativeily Theme Child
+ Author:       Nanna Bennedbæk
+ Author URI:   nannalb@hotmail.com
+ Template:     creativeily
+ Version:      1.0.0 
+*/
+
+
+.header a.logo {
+    display: none;
+}
+.has-sidebar #secondary {
+    display: none;
+}
+.wrapmain article {
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 0 4px 10px rgba(0,0,0,.05);
+    text-align: center;
+}
+.wrapmain article .entry-content p {
+    text-align: center;
+}
+.has-sidebar #secondary {
+    display: none;
+}
+menu-icon > span:before, .menu-icon > span:after {
+    background-color: #ffffff;
+}
+.menu-icon > span {
+    background-color: white;
+}
+.header {
+    color: none;
+}
+.menu-icon > span:before, .menu-icon > span:after {
+    background-color: #FFFFFF;
+}
+.mobile-bar {
+    margin-right: 10px;
+    background-color: rgba(255, 255, 255, 0.0);
+}
+.header-menu {
+    background-color: rgba(0,0,0,0.60);
+    left: 70%;
+    width: 30%;
+}
+.header-menu ul {
+    width: 32.5%;
+}
+.header-menu ul {
+    padding-top: 6em;
+    padding-bottom: 4em;
+    margin: 0;
+    text-align: -webkit-center;
+    top: 7.5%;
+    height: 100%;
+}
+body {
+    line-height: 2em;
+    font-family: montserrat, sans-serif;
+    font-weight: 200;
+}
+input#submit, input#submit:hover, button, button:hover, [type="button"], [type="button"]:hover, .button, .button:hover {
+    background-color: #464A52;
+}
+.single .wrapmain article *, .page .wrapmain article * {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+.image-creativeily-header {
+    background: #222 url(http://localhost/projekttb/wp-content/uploads/2019/02/rock-waves.jpg) center center no-repeat;
+}
+.footer-column-three {
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+    color: #fff;
+    padding: 50px 10px 10px 10px;
+}
+.footer-column-left {
+    padding-right: 14px;
+}
+.footer-column-three h3 {
+    color: #fff;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+.footer-column-wrapper .widget, .footer-column-wrapper .widget li, .footer-column-wrapper .widget p, .footer-column-wrapper abbr, .footer-column-wrapper cite, .footer-column-wrapper table caption, .footer-column-wrapper td, .footer-column-wrapper th {
+    color: #b9b9b9;
+    font-size: 20px;
+}
+.footer-column-wrapper .widget a {
+    color: #fff;
+}
+.footer-info-right {
+    display: none;
+}
+.custom-logo {
+    margin-left: 42.2%;
+    margin-top: 10%;
+    max-width: 15% !important;
+    min-width: 180px;
+}
+.footer-column-wrapper .widget a {
+    color: #ffffff;
+}
+.single .wrapmain article a, .page .wrapmain article a {
+    color: #000000;
+    font-style: italic;
+}
+
+@media screen and (min-width: 48em) {
+.has-sidebar:not(.error404) #primary {
+    margin: 0;
+    padding-bottom: 1.8em;
+    float: left;
+    width: 100%;
+    border-right: 1px dotted #eee;
+}
+}
